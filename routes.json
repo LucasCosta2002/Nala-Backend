@@ -1,0 +1,7 @@
+{
+    "/api/tiers": "/tiers",
+    "/api/divisions": "/divisions",
+    "/api/positions": "/positions",
+    "/api/divisions/:id/positions": "/positions?divisionId=:id",
+    "/api/tiers/:id/positions": "/positions?tierId=:id"
+}
