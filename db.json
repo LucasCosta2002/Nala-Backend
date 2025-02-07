@@ -1,55 +1,33 @@
 {
   "tiers": [
     {
-      "name": "Gerencia",
-      "id": "7692"
-    },
-    {
-      "name": "Adminsitracion",
-      "id": "944f"
-    },
-    {
-      "name": "Desarrollo",
-      "id": "21c1"
+      "name": "Tier 1",
+      "id": "61ca"
     }
   ],
   "divisions": [
     {
-      "id": "1",
-      "name": "Administración",
-      "description": "Área responsable de la gestión financiera y recursos humanos."
+      "name": "Gerencia",
+      "description": "CEO",
+      "id": "89f6"
     },
-    {
-      "id": "2",
-      "name": "Operaciones",
-      "description": "Área encargada de la producción y logística."
-    },
-    {
-      "id": "3",
-      "name": "Ventas",
-      "description": "Área dedicada a la gestión comercial y relaciones con clientes."
-    }
   ],
   "positions": [
     {
-      "name": "Director de Finanzas",
-      "tierId": "944f",
-      "divisionId": "3",
-      "id": "2"
-    },
+      "name": "New Position",
+      "tierId": "61ca",
+      "divisionId": "89f6",
+      "parentId": "0",
+      "employeeIds": [],
+      "id": "1c62"
+    }
+  ],
+  "employees": [
     {
-      "name": "Vendedor Senior",
-      "tierId": "944f",
-      "divisionId": "3",
-      "id": "4"
-    },
-    {
-      "id": "5",
-      "name": "Asistente Administrativo",
-      "divisionId": "3",
-      "tierId": "7692",
-      "positionX": 750,
-      "positionY": 250
+      "id": "3ee3",
+      "name": "Lucas",
+      "email": "lucas@lucas.com",
+      "country": "Argentina"
     }
   ]
 }
