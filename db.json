@@ -2,7 +2,8 @@
   "tiers": [
     {
       "name": "Tier 1",
-      "id": "61ca"
+      "id": "61ca",
+      "y": 100
     }
   ],
   "divisions": [
@@ -10,16 +11,17 @@
       "name": "Gerencia",
       "description": "CEO",
       "id": "89f6"
-    },
+    }
   ],
   "positions": [
     {
-      "name": "New Position",
+      "name": "Level 1",
       "tierId": "61ca",
       "divisionId": "89f6",
       "parentId": "0",
       "employeeIds": [],
-      "id": "1c62"
+      "id": "1c62",
+      "y": 100
     }
   ],
   "employees": [
